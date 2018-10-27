@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterForm.Controller">
+   <center>
+      <AnchorPane prefHeight="624.0" prefWidth="908.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="624.0" fitWidth="1071.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../hero11.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="474.0" layoutY="104.0" opacity="0.5" prefHeight="458.0" prefWidth="401.0" style="-fx-background-color: black;">
+               <children>
+                  <TextField layoutX="38.0" layoutY="88.0" prefHeight="31.0" prefWidth="326.0" promptText="USERNAME">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="37.0" layoutY="145.0" prefHeight="31.0" prefWidth="326.0" promptText="PHONE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="39.0" layoutY="197.0" prefHeight="31.0" prefWidth="326.0" promptText="EMAIL ADDRESS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="38.0" layoutY="254.0" prefHeight="31.0" prefWidth="326.0" promptText="********">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="38.0" layoutY="323.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="325.0" style="-fx-background-color: green; -fx-text-fill: white;" text="REGISTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Text fill="WHITE" layoutX="116.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up Form" textAlignment="CENTER">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="33.0" layoutY="104.0" opacity="0.5" prefHeight="331.0" prefWidth="401.0" style="-fx-background-color: black;">
+               <children>
+                  <Text fill="WHITE" layoutX="122.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In Form" textAlignment="CENTER">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="38.0" layoutY="92.0" prefHeight="31.0" prefWidth="326.0" promptText="USERNAME">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="37.0" layoutY="149.0" prefHeight="31.0" prefWidth="326.0" promptText="********">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="210.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: red; -fx-text-fill: white;" text="RESET" />
+                  <Button layoutX="38.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: green; -fx-text-fill: white;" text="SIGN IN" />
+               </children>
+            </AnchorPane>
+            <Text fill="WHITE" layoutX="330.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UNIQUE LOGIN FORM" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

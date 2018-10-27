@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\CHIORA\Desktop\Java_lesson_2\.metadata\.plugins\org.eclipse.jdt.core
+1041421547.index
+1931209987.index
+69000597.index

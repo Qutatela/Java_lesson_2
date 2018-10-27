@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="560.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Personal.Controller">
+   <top>
+      <AnchorPane prefHeight="560.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="71.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gvari, Saxeli: *">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="47.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name, Lastname:*">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="61.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Piradi Nomeri:*">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="127.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Poto:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <DatePicker layoutX="182.0" layoutY="270.0" />
+            <Text layoutX="44.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dabadebis Tarigi:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="120.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sqesi:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="63.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Moqalaqeoba:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="95.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Erovneba:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="93.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Misamarti:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel. Nomeri:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="75.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mob. Nomeri:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="107.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El. Posta:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField layoutX="182.0" layoutY="82.0" />
+            <TextField layoutX="182.0" layoutY="116.0" />
+            <TextField layoutX="182.0" layoutY="150.0" />
+            <TextField layoutX="182.0" layoutY="338.0" />
+            <TextField layoutX="182.0" layoutY="407.0" />
+            <TextField layoutX="182.0" layoutY="441.0" />
+            <TextField layoutX="182.0" layoutY="475.0" />
+            <TextField layoutX="182.0" layoutY="509.0" />
+            <Text layoutX="105.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Information">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Accordion layoutX="156.0" layoutY="200.0" />
+            <CheckBox layoutX="182.0" layoutY="308.0" mnemonicParsing="false" text="Mamrobiti" />
+            <CheckBox layoutX="269.0" layoutY="308.0" mnemonicParsing="false" text="Mdedrobiti" />
+            <ChoiceBox layoutX="181.0" layoutY="372.0" prefWidth="150.0" />
+            <ImageView fitHeight="72.0" fitWidth="96.0" layoutX="182.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img_510068.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
